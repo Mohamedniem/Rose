@@ -1,0 +1,18 @@
+<div class="container pt-40">
+    <div class="w-full h-full text-start">
+        <h1 class="text-accent text-3xl font-normal mb-1">Delivery</h1>
+        <h2 class="text-accent text-[26px] font-normal">Shipments And </h2>
+        <h2 class="text-accent text-[26px] font-normal">Returns</h2>
+        <h2 class="text-accent text-[26px] font-normal">Your Pack Shipment</h2>
+        <div class="text-start my-6 pb-10">
+            @for (item of deliveryData; track $index) {
+                <p class="text-policy text-xl font-normal mb-4">{{item.description}}</p>
+
+            }
+            
+        </div>
+    
+        
+    </div>
+
+</div>

@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/delivery",
+    "/faqs",
+    "/main",
+    "/main/about-us",
+    "/main/allcateogry",
+    "/main/home",
+    "/policy"
+  ]
+}
